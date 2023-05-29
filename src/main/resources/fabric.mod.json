@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "syncore",
+  "version": "${version}",
+  "name": "Syncore",
+  "description": "Tries to give all resources missing items and blocks, unless not possible.",
+  "authors": [
+    "gekocaretaker"
+  ],
+  "contact": {
+    "website": "github.com/gekocaretaker",
+    "repo": "github.com/gekocaretaker/Syncore"
+  },
+  "license": "MIT",
+  "icon": "assets/syncore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.gekocaretaker.syncore.client.SyncoreClient"
+    ],
+    "main": [
+      "com.gekocaretaker.syncore.Syncore"
+    ]
+  },
+  "mixins": [
+    "syncore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  },
+  "accessWidener": "syncore.accesswidener"
+}

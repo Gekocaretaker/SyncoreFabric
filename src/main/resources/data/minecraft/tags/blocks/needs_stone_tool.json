@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "syncore:raw_lapis_lazuli_block",
+    "syncore:charcoal_block",
+    "syncore:raw_quartz_block"
+  ]
+}

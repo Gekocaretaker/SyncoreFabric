@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:amethysts"
+    }
+  ],
+  "result": {
+    "item": "syncore:amethyst_nugget",
+    "count": 9
+  }
+}

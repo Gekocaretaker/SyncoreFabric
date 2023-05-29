@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:amethyst_blocks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:amethyst_shard",
+    "count": 4
+  }
+}

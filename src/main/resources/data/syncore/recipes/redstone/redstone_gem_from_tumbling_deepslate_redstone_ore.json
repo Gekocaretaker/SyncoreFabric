@@ -1,0 +1,10 @@
+{
+  "type": "tumbling",
+  "group": "emerald",
+  "ingredient": {
+    "item": "minecraft:deepslate_redstone_ore"
+  },
+  "result": "syncore:redstone_gemstone",
+  "experience": 1.0,
+  "cookingtime": 100
+}

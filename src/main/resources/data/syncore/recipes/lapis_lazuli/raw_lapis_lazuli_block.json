@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "syncore:raw_lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "syncore:raw_lapis_lazuli_block"
+  }
+}

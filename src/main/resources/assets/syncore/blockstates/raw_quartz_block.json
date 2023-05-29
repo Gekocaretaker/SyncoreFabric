@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "syncore:block/raw_quartz_block"
+    }
+  }
+}

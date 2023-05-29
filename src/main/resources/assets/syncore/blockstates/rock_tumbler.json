@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "syncore:block/rock_tumbler"
+    },
+    "facing=north,lit=true": {
+      "model": "syncore:block/rock_tumbler_on"
+    },
+    "facing=south,lit=false": {
+      "model": "syncore:block/rock_tumbler",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "syncore:block/rock_tumbler_on",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "syncore:block/rock_tumbler",
+      "y": 270
+    },
+    "facing=west,lit=true": {
+      "model": "syncore:block/rock_tumbler_on",
+      "y": 270
+    },
+    "facing=east,lit=false": {
+      "model": "syncore:block/rock_tumbler",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "syncore:block/rock_tumbler_on",
+      "y": 90
+    }
+  }
+}

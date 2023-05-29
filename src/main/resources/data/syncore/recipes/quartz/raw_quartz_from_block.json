@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "syncore:raw_quartz_block"
+    }
+  ],
+  "result": {
+    "item": "syncore:raw_quartz",
+    "count": 9
+  }
+}

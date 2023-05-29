@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "syncore:raw_diamond_block",
+    "syncore:raw_emerald_block",
+    "syncore:raw_redstone_block"
+  ]
+}

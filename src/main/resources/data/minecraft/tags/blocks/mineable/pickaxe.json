@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "syncore:rock_tumbler",
+    "syncore:raw_diamond_block",
+    "syncore:raw_netherite_block",
+    "syncore:raw_emerald_block",
+    "syncore:raw_lapis_lazuli_block",
+    "syncore:raw_redstone_block",
+    "syncore:charcoal_block",
+    "syncore:raw_quartz_block"
+  ]
+}

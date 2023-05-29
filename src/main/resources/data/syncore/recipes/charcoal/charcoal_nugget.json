@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:charcoal"
+    }
+  ],
+  "result": {
+    "item": "syncore:charcoal_nugget",
+    "count": 8
+  }
+}

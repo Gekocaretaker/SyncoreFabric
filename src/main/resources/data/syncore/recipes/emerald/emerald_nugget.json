@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:emeralds"
+    }
+  ],
+  "result": {
+    "item": "syncore:emerald_nugget",
+    "count": 9
+  }
+}

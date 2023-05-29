@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "tag": "c:redstone_dusts"
+    }
+  },
+  "result": {
+    "item": "syncore:redstone_gemstone"
+  }
+}

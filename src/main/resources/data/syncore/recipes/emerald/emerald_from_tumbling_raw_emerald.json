@@ -1,0 +1,10 @@
+{
+  "type": "tumbling",
+  "group": "emerald",
+  "ingredient": {
+    "item": "syncore:raw_emerald"
+  },
+  "result": "minecraft:emerald",
+  "experience": 1.0,
+  "cookingtime": 100
+}

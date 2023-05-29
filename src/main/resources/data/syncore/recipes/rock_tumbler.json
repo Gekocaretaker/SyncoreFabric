@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "group": "rock_tumbler",
+  "pattern": [
+    " D ",
+    "RFR",
+    "SSS"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:redstone_gems"
+    },
+    "D": {
+      "tag": "c:diamonds"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "S": {
+      "item": "smooth_stone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "syncore:rock_tumbler"
+  }
+}

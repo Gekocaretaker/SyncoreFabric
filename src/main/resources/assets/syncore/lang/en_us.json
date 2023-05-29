@@ -1,0 +1,32 @@
+{
+  "itemGroup.syncore.general": "Sync Ore (Vanilla)",
+
+  "item.syncore.coal_nugget": "Coal Nugget",
+  "item.syncore.copper_nugget": "Copper Nugget",
+  "item.syncore.raw_diamond": "Raw Diamond",
+  "item.syncore.diamond_nugget": "Diamond Nugget",
+  "item.syncore.netherite_nugget": "Netherite Nugget",
+  "item.syncore.raw_emerald": "Raw Emerald",
+  "item.syncore.emerald_nugget": "Emerald Nugget",
+  "item.syncore.raw_lapis_lazuli": "Raw Lapis Lazuli",
+  "item.syncore.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+  "item.syncore.raw_redstone": "Raw Redstone",
+  "item.syncore.redstone_gemstone": "Redstone Gemstone",
+  "item.syncore.charcoal_nugget": "Charcoal Nugget",
+  "item.syncore.raw_quartz": "Raw Quartz",
+  "item.syncore.quartz_nugget": "Quartz Nugget",
+  "item.syncore.amethyst_nugget": "Amethyst Nugget",
+
+  "block.syncore.rock_tumbler": "Rock Tumbler",
+  "block.syncore.raw_diamond_block": "Block of Raw Diamond",
+  "block.syncore.raw_netherite_block": "Block of Raw Netherite",
+  "block.syncore.raw_emerald_block": "Block of Raw Emerald",
+  "block.syncore.raw_lapis_lazuli_block": "Block of Raw Lapis Lazuli",
+  "block.syncore.raw_redstone_block": "Block of Raw Redstone",
+  "block.syncore.charcoal_block": "Block of Charcoal",
+  "block.syncore.raw_quartz_block": "Block of Raw Quartz",
+
+  "container.rock_tumbler": "Rock Tumbler",
+
+  "stat.syncore.interact_with_rock_tumbler": "Interactions with Rock Tumbler"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tumbling",
+  "group": "quartz",
+  "ingredient": {
+    "item": "syncore:raw_quartz"
+  },
+  "result": "minecraft:quartz",
+  "experience": 1.0,
+  "cookingtime": 100
+}

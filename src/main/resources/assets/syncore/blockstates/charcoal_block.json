@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "syncore:block/charcoal_block"
+    }
+  }
+}

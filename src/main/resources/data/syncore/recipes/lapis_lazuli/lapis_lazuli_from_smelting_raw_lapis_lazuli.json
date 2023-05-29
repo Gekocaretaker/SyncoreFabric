@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "lapis_lazuli",
+  "ingredient": {
+    "item": "syncore:raw_lapis_lazuli"
+  },
+  "result": "minecraft:lapis_lazuli"
+}
