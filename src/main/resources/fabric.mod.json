@@ -20,6 +20,18 @@
     ],
     "main": [
       "com.gekocaretaker.syncore.Syncore"
+    ],
+    "rei_client": [
+      "com.gekocaretaker.syncore.compat.rei.SyncoreREIClientPlugin"
+    ],
+    "rei_common": [
+      "com.gekocaretaker.syncore.compat.rei.SyncoreREIServerPlugin"
+    ],
+    "emi": [
+      "com.gekocaretaker.syncore.compat.emi.EMICompat"
+    ],
+    "jei_mod_plugin": [
+      "com.gekocaretaker.syncore.compat.jei.JEICompat"
     ]
   },
   "mixins": [

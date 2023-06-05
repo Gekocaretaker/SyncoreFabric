@@ -15,21 +15,12 @@ public class RecipeInit {
                     new CookingRecipeSerializer<RockTumblerRecipe>(RockTumblerRecipe::new, 100));
 
     public static <T extends Recipe<?>> RecipeType<T> register(final String id) {
-        return Registry.register(Registry.RECIPE_TYPE, new Identifier(Syncore.MOD_ID, id), new RecipeType<T>(){
-
-            public String toString() {
-                return id;
-            }
-        });
+        return Registry.register(Registry.RECIPE_TYPE, new Identifier(Syncore.MOD_ID, id), new RecipeType<T>(){});
     }
 
     public static void init() {
-        Syncore.LOGGER.info("Creating recipe types...");
-        Syncore.LOGGER.info("Creating recipe type with id of '" + ROCK_TUMBLER_RECIPE_TYPE.toString() + "'.");
-        Syncore.LOGGER.info("Finished creating recipe types.");
+        Syncore.LOGGER.info("Creating recipe types.");
 
-        Syncore.LOGGER.info("Creating recipe serializers...");
-        Syncore.LOGGER.info("Creating recipe serializer with id of '" + ROCK_TUMBLER_RECIPE_SERIALIZER.toString() + "'.");
-        Syncore.LOGGER.info("Finished creating recipe serializers.");
+        Syncore.LOGGER.info("Creating recipe serializers.");
     }
 }

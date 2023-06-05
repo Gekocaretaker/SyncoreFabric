@@ -4,17 +4,11 @@ import com.gekocaretaker.syncore.block.BlockInit;
 import com.gekocaretaker.syncore.block.entity.BlockEntityInit;
 import com.gekocaretaker.syncore.item.ItemInit;
 import com.gekocaretaker.syncore.recipe.RecipeInit;
-import com.gekocaretaker.syncore.recipe.RockTumblerRecipe;
 import com.gekocaretaker.syncore.stat.StatsInit;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-// TODO: Make a mod icon.
-// TODO: Ask on discord how to get additional resources to work.
+
 public class Syncore implements ModInitializer {
     public static final String MOD_ID = "syncore";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);

@@ -23,7 +23,6 @@ public class RockTumblerBlockEntity extends AbstractFurnaceBlockEntity {
 
     @Override
     protected int getFuelTime(ItemStack fuel) {
-        Syncore.LOGGER.info("Rock Tumbler Fuel Time: " + super.getFuelTime(fuel) / 2);
         return super.getFuelTime(fuel) / 2;
     }
 
