@@ -1,10 +1,11 @@
 package com.gekocaretaker.syncore.stat;
 
 import com.gekocaretaker.syncore.Syncore;
+import net.minecraft.registry.Registries;
 import net.minecraft.stat.StatFormatter;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 
 public class StatsInit {
     public static void init() {
@@ -15,7 +16,7 @@ public class StatsInit {
 
     private static Identifier register(String id, StatFormatter formatter) {
         Identifier identifier = new Identifier(Syncore.MOD_ID, id);
-        Registry.register(Registry.CUSTOM_STAT, id, identifier);
+        Registry.register(Registries.CUSTOM_STAT, id, identifier);
         Stats.CUSTOM.getOrCreateStat(identifier, formatter);
         return identifier;
     }

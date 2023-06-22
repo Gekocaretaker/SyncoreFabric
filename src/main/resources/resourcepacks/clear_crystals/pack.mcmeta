@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 9,
-    "description": "Makes all crystal blocks and items transparent."
+    "pack_format": 15,
+    "description": "(Not working, MC Bugs 98308 & 164001) Makes all crystal blocks and items transparent."
   }
 }

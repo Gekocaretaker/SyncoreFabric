@@ -5,11 +5,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.AbstractCookingRecipe;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.RecipeSerializer;
+import net.minecraft.recipe.book.CookingRecipeCategory;
 import net.minecraft.util.Identifier;
 
 public class RockTumblerRecipe extends AbstractCookingRecipe {
-    public RockTumblerRecipe(Identifier id, String group, Ingredient input, ItemStack output, float experience, int cookTime) {
-        super(RecipeInit.ROCK_TUMBLER_RECIPE_TYPE, id, group, input, output, experience, cookTime);
+    public RockTumblerRecipe(Identifier id, String group, CookingRecipeCategory category, Ingredient input, ItemStack output, float experience, int cookTime) {
+        super(RecipeInit.ROCK_TUMBLER_RECIPE_TYPE, id, group, CookingRecipeCategory.MISC, input, output, experience, cookTime);
     }
 
     @Override

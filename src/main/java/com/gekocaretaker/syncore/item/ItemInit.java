@@ -2,12 +2,12 @@ package com.gekocaretaker.syncore.item;
 
 import com.gekocaretaker.syncore.Syncore;
 import com.gekocaretaker.syncore.block.BlockInit;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.*;
+import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 
 public class ItemInit {
     public static final Item COAL_NUGGET = new Item(new FabricItemSettings());
@@ -57,10 +57,10 @@ public class ItemInit {
 
     private static void register(Item item, String id) {
         Syncore.LOGGER.info("Creating item with id of '" + id + "'.");
-        Registry.register(Registry.ITEM, new Identifier(Syncore.MOD_ID, id), item);
+        Registry.register(Registries.ITEM, new Identifier(Syncore.MOD_ID, id), item);
     }
 
-    private static final ItemGroup SYNCORE_GROUP = FabricItemGroupBuilder.create(
+    /*private static final ItemGroup SYNCORE_GROUP = FabricItemGroupBuilder.create(
             new Identifier(Syncore.MOD_ID, "general"))
             .icon(() -> new ItemStack(RAW_DIAMOND))
             .appendItems(stacks -> {
@@ -200,5 +200,5 @@ public class ItemInit {
                 stacks.add(new ItemStack(AMETHYST_NUGGET));
                 // </editor-fold>
             })
-            .build();
+            .build();*/
 }

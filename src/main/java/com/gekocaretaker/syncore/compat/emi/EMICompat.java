@@ -8,8 +8,8 @@ import com.gekocaretaker.syncore.recipe.RecipeInit;
 import com.gekocaretaker.syncore.recipe.RockTumblerRecipe;
 import com.gekocaretaker.syncore.screen.RockTumblerScreenHandler;
 import com.gekocaretaker.syncore.screen.ScreenHandlerInit;
-import com.mojang.blaze3d.systems.RenderSystem;
-import dev.emi.emi.EmiReloadLog;
+import dev.emi.emi.runtime.EmiDrawContext;
+import dev.emi.emi.runtime.EmiReloadLog;
 import dev.emi.emi.EmiRenderHelper;
 import dev.emi.emi.api.EmiPlugin;
 import dev.emi.emi.api.EmiRegistry;
@@ -20,7 +20,6 @@ import dev.emi.emi.api.render.EmiRenderable;
 import dev.emi.emi.api.stack.EmiStack;
 import dev.emi.emi.handler.CookingRecipeHandler;
 import dev.emi.emi.recipe.EmiCookingRecipe;
-import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.recipe.Recipe;
 import net.minecraft.util.Identifier;
 
@@ -44,9 +43,9 @@ public class EMICompat implements EmiPlugin {
     }
 
     private static EmiRenderable simplifiedRenderer(int u, int v) {
-        return (matrices, x, y, delta) -> {
-            RenderSystem.setShaderTexture(0, EmiRenderHelper.WIDGETS);
-            DrawableHelper.drawTexture(matrices, x, y, u, v, 16, 16, 256, 256);
+        return (raw, x, y, delta) -> {
+            EmiDrawContext context = EmiDrawContext.wrap(raw);
+            context.drawTexture(EmiRenderHelper.WIDGETS, x, y, u, v, 16, 16);
         };
     }
 

@@ -1,6 +1,5 @@
 package com.gekocaretaker.syncore.block.entity;
 
-import com.gekocaretaker.syncore.Syncore;
 import com.gekocaretaker.syncore.recipe.RecipeInit;
 import com.gekocaretaker.syncore.screen.RockTumblerScreenHandler;
 import net.minecraft.block.BlockState;

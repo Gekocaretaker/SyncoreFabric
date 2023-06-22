@@ -2,6 +2,7 @@ package com.gekocaretaker.syncore;
 
 import com.gekocaretaker.syncore.block.BlockInit;
 import com.gekocaretaker.syncore.block.entity.BlockEntityInit;
+import com.gekocaretaker.syncore.item.ItemGroupInit;
 import com.gekocaretaker.syncore.item.ItemInit;
 import com.gekocaretaker.syncore.recipe.RecipeInit;
 import com.gekocaretaker.syncore.stat.StatsInit;
@@ -16,6 +17,10 @@ public class Syncore implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Starting Sync Ore.");
+
+        LOGGER.info("Generating creative categories...");
+        ItemGroupInit.init();
+        LOGGER.info("Finished generating creative categories.");
 
         LOGGER.info("Generating vanilla blocks...");
         BlockInit.init();
