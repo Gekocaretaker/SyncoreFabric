@@ -2,10 +2,10 @@ package com.gekocaretaker.syncore.compat.jei;
 
 import com.gekocaretaker.syncore.recipe.RecipeInit;
 import com.gekocaretaker.syncore.recipe.RockTumblerRecipe;
-import mezz.jei.api.recipe.category.IRecipeCategory;
-import mezz.jei.api.runtime.IIngredientManager;
-import mezz.jei.common.util.ErrorUtil;
-import mezz.jei.library.plugins.vanilla.crafting.CategoryRecipeValidator;
+//import mezz.jei.api.recipe.category.IRecipeCategory;
+//import mezz.jei.api.runtime.IIngredientManager;
+//import mezz.jei.common.util.ErrorUtil;
+//import mezz.jei.library.plugins.vanilla.crafting.CategoryRecipeValidator;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.inventory.Inventory;
@@ -16,7 +16,7 @@ import net.minecraft.recipe.RecipeType;
 import java.util.List;
 
 public final class SyncoreRecipes {
-    private final RecipeManager recipeManager;
+    /*private final RecipeManager recipeManager;
     private final IIngredientManager ingredientManager;
 
     public SyncoreRecipes(IIngredientManager ingredientManager) {
@@ -42,5 +42,5 @@ public final class SyncoreRecipes {
                 .stream()
                 .filter(r -> validator.isRecipeValid(r) && validator.isRecipeHandled(r))
                 .toList();
-    }
+    }*/
 }

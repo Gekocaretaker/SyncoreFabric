@@ -1,0 +1,11 @@
+{
+  "type": "syncore:tumbling",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "diamond_shard",
+  "ingredient": "minecraft:diamond_hoe",
+  "result": {
+    "id": "syncore:diamond_shard"
+  }
+}

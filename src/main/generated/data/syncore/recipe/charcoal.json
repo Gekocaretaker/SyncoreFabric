@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "charcoal",
+  "ingredients": [
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal",
+    "#c:nuggets/charcoal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:charcoal"
+  }
+}

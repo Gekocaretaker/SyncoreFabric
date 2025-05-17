@@ -6,20 +6,20 @@ import com.gekocaretaker.syncore.client.gui.screen.ingame.RockTumblerScreen;
 import com.gekocaretaker.syncore.recipe.RockTumblerRecipe;
 import com.gekocaretaker.syncore.screen.RockTumblerScreenHandler;
 import com.gekocaretaker.syncore.screen.ScreenHandlerInit;
-import mezz.jei.api.IModPlugin;
-import mezz.jei.api.constants.RecipeTypes;
-import mezz.jei.api.helpers.IGuiHelper;
-import mezz.jei.api.helpers.IJeiHelpers;
-import mezz.jei.api.recipe.category.IRecipeCategory;
-import mezz.jei.api.registration.*;
-import mezz.jei.api.runtime.IIngredientManager;
-import mezz.jei.common.util.ErrorUtil;
+//import mezz.jei.api.IModPlugin;
+//import mezz.jei.api.constants.RecipeTypes;
+//import mezz.jei.api.helpers.IGuiHelper;
+//import mezz.jei.api.helpers.IJeiHelpers;
+//import mezz.jei.api.recipe.category.IRecipeCategory;
+//import mezz.jei.api.registration.*;
+//import mezz.jei.api.runtime.IIngredientManager;
+//import mezz.jei.common.util.ErrorUtil;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Nullable;
 
-public class JEICompat implements IModPlugin {
-    @Nullable
+public class JEICompat/* implements IModPlugin*/ {
+    /*@Nullable
     private IRecipeCategory<RockTumblerRecipe> tumblingCategory;
 
     @Override
@@ -60,5 +60,5 @@ public class JEICompat implements IModPlugin {
     @Override
     public void registerRecipeCatalysts(IRecipeCatalystRegistration registration) {
         registration.addRecipeCatalyst(new ItemStack(BlockInit.ROCK_TUMBLER_BLOCK), SyncoreTypes.TUMBLING, RecipeTypes.FUELING);
-    }
+    }*/
 }

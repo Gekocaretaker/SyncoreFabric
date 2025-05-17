@@ -21,26 +21,27 @@
     "main": [
       "com.gekocaretaker.syncore.Syncore"
     ],
+    "fabric-datagen": [
+      "com.gekocaretaker.syncore.client.datagen.SyncoreDatagen"
+    ],
     "rei_client": [
       "com.gekocaretaker.syncore.compat.rei.SyncoreREIClientPlugin"
     ],
     "rei_common": [
       "com.gekocaretaker.syncore.compat.rei.SyncoreREIServerPlugin"
-    ],
-    "emi": [
-      "com.gekocaretaker.syncore.compat.emi.EMICompat"
-    ],
-    "jei_mod_plugin": [
-      "com.gekocaretaker.syncore.compat.jei.JEICompat"
     ]
   },
   "mixins": [
     "syncore.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.19",
+    "fabricloader": ">=0.16.13",
     "fabric": "*",
+<<<<<<< Updated upstream
     "minecraft": "1.19.2"
+=======
+    "minecraft": "1.21.5"
+>>>>>>> Stashed changes
   },
   "accessWidener": "syncore.accesswidener"
 }

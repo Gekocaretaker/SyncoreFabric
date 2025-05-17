@@ -1,6 +1,6 @@
 package com.gekocaretaker.syncore.compat.emi;
 
-import static com.gekocaretaker.syncore.compat.emi.SyncoreEmiRecipeCategories.TUMBLING;
+//import static com.gekocaretaker.syncore.compat.emi.SyncoreEmiRecipeCategories.TUMBLING;
 
 import com.gekocaretaker.syncore.Syncore;
 import com.gekocaretaker.syncore.block.BlockInit;
@@ -8,26 +8,25 @@ import com.gekocaretaker.syncore.recipe.RecipeInit;
 import com.gekocaretaker.syncore.recipe.RockTumblerRecipe;
 import com.gekocaretaker.syncore.screen.RockTumblerScreenHandler;
 import com.gekocaretaker.syncore.screen.ScreenHandlerInit;
-import com.mojang.blaze3d.systems.RenderSystem;
-import dev.emi.emi.EmiReloadLog;
-import dev.emi.emi.EmiRenderHelper;
-import dev.emi.emi.api.EmiPlugin;
-import dev.emi.emi.api.EmiRegistry;
-import dev.emi.emi.api.recipe.EmiRecipe;
-import dev.emi.emi.api.recipe.EmiRecipeCategory;
-import dev.emi.emi.api.recipe.EmiRecipeSorting;
-import dev.emi.emi.api.render.EmiRenderable;
-import dev.emi.emi.api.stack.EmiStack;
-import dev.emi.emi.handler.CookingRecipeHandler;
-import dev.emi.emi.recipe.EmiCookingRecipe;
-import net.minecraft.client.gui.DrawableHelper;
+//import dev.emi.emi.runtime.EmiDrawContext;
+//import dev.emi.emi.runtime.EmiReloadLog;
+//import dev.emi.emi.EmiRenderHelper;
+//import dev.emi.emi.api.EmiPlugin;
+//import dev.emi.emi.api.EmiRegistry;
+//import dev.emi.emi.api.recipe.EmiRecipe;
+//import dev.emi.emi.api.recipe.EmiRecipeCategory;
+//import dev.emi.emi.api.recipe.EmiRecipeSorting;
+//import dev.emi.emi.api.render.EmiRenderable;
+//import dev.emi.emi.api.stack.EmiStack;
+//import dev.emi.emi.handler.CookingRecipeHandler;
+//import dev.emi.emi.recipe.EmiCookingRecipe;
 import net.minecraft.recipe.Recipe;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Supplier;
 
-public class EMICompat implements EmiPlugin {
-    @Override
+public class EMICompat/* implements EmiPlugin*/ {
+    /*@Override
     public void register(EmiRegistry registry) {
         TUMBLING = new EmiRecipeCategory(new Identifier(Syncore.MOD_ID, "tumbling"),
                 EmiStack.of(BlockInit.ROCK_TUMBLER_BLOCK), simplifiedRenderer(208, 240), EmiRecipeSorting.compareOutputThenInput());
@@ -57,5 +56,5 @@ public class EMICompat implements EmiPlugin {
             EmiReloadLog.warn("Exception when parsing syncore recipe " + recipe.getId());
             EmiReloadLog.error(e);
         }
-    }
+    }*/
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "redstone_gem",
+  "ingredients": [
+    "#c:storage_blocks/redstone"
+  ],
+  "result": {
+    "count": 9,
+    "id": "syncore:redstone_gemstone"
+  }
+}

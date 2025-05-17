@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "syncore:block/raw_lapis_lazuli_block"
-  }
-}

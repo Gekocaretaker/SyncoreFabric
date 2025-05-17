@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "syncore:rough_redstone_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "syncore:rough_redstone"
+  }
+}

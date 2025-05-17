@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:gems/redstone"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:redstone"
+  }
+}

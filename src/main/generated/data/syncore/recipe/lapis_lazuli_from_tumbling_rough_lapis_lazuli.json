@@ -1,0 +1,11 @@
+{
+  "type": "syncore:tumbling",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "lapis_lazuli",
+  "ingredient": "syncore:rough_lapis_lazuli",
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  }
+}

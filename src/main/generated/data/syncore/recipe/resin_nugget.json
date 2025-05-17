@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:resin_brick"
+  ],
+  "result": {
+    "count": 9,
+    "id": "syncore:resin_nugget"
+  }
+}

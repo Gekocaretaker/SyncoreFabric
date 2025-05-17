@@ -14,8 +14,8 @@ public class StatsInit {
     public static final Identifier INTERACT_WITH_ROCK_TUMBLER = StatsInit.register("interact_with_rock_tumbler", StatFormatter.DEFAULT);
 
     private static Identifier register(String id, StatFormatter formatter) {
-        Identifier identifier = new Identifier(Syncore.MOD_ID, id);
-        Registry.register(Registry.CUSTOM_STAT, id, identifier);
+        Identifier identifier = Syncore.identify(id);
+        Registry.register(Registries.CUSTOM_STAT, id, identifier);
         Stats.CUSTOM.getOrCreateStat(identifier, formatter);
         return identifier;
     }

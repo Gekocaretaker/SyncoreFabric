@@ -1,0 +1,11 @@
+{
+  "type": "syncore:tumbling",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "quartz",
+  "ingredient": "syncore:rough_quartz",
+  "result": {
+    "id": "minecraft:quartz"
+  }
+}

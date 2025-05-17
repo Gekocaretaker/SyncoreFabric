@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "coal",
+  "ingredients": [
+    "#c:nuggets/coal",
+    "#c:nuggets/coal",
+    "#c:nuggets/coal",
+    "#c:nuggets/coal",
+    "#c:nuggets/coal",
+    "#c:nuggets/coal",
+    "#c:nuggets/coal",
+    "#c:nuggets/coal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}

@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">Syncore is a mod that tries to give all resources missing items and blocks, unless not possible.<p>
-<p align="center">The resources currently added are Amethyst, Charcoal, Coal, Copper, Diamond, Emerald, Gold, Iron, Lapis Lazuli, Netherite, Quartz, and Redstone. Other mods will be supported in the future.</p>
+<p align="center">The resources currently added are Charcoal, Coal, Copper, Diamond, Emerald, Gold, Iron, Lapis Lazuli, Netherite, Quartz, and Redstone. Other mods will be supported in the future.</p>
 <p align="center">This mod is more meant to be used by other mods as a dependency, but you can use it standalone if you want.</p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 <p align="center">
   <img src="https://i.imgur.com/kzCXGFJ.png" alt="New Nuggets" width="250" />
-  <p align="center">LRTB Coal Nugget, Copper Nugget, Quartz Nugget, Emerald Nugget, Diamond Nugget, Lapis Lazuli Nugget, Charcoal Nugget, Amethyst Nugget, and Netherite Nugget.</p>
+  <p align="center">LRTB Coal Nugget, Copper Nugget, Quartz Nugget, Emerald Nugget, Diamond Nugget, Lapis Lazuli Nugget, Charcoal Nugget, <s>Amethyst Nugget</s> no longer exists, and Netherite Nugget.</p>
   <br />
 </p>
 <p align="center">
@@ -26,7 +26,7 @@
 </p>
 <p align="center">
   <img src="https://i.imgur.com/KVzdhaQ.png" alt="Rock Tumblers" width="250" />
-  <p align="center">On the right: A inactive rock tumbler. On the left: A active rock tumbler. The rock tumbler is the a boosted version of the furnace for gems, like the blast furnace is for metals.</p>
+  <p align="center"><b>Model & texture outdated</b>. On the right: A inactive rock tumbler. On the left: A active rock tumbler. The rock tumbler is a boosted version of the furnace for gems, like the blast furnace is for metals.</p>
   <br />
 </p>
 <p align="center">

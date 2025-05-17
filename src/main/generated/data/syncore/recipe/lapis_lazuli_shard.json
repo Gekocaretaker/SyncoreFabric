@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:gems/lapis"
+  ],
+  "result": {
+    "count": 9,
+    "id": "syncore:lapis_lazuli_shard"
+  }
+}

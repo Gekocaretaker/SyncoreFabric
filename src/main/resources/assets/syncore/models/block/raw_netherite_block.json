@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_column",
   "textures": {
-    "all": "syncore:block/raw_netherite_block"
+    "end": "syncore:block/raw_netherite_block_top",
+    "side": "syncore:block/raw_netherite_block_side"
   }
 }

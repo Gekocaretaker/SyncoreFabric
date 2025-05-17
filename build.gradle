@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.2-SNAPSHOT'
+	id 'fabric-loom' version '1.10-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -8,6 +8,12 @@ group = project.maven_group
 
 loom {
 	accessWidenerPath = file("src/main/resources/syncore.accesswidener")
+}
+
+fabricApi {
+	configureDataGeneration() {
+		client = true
+	}
 }
 
 repositories {
@@ -43,22 +49,29 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// EMI
-	modCompileOnly("dev.emi:emi:${project.emi_version}") { transitive = false }
+	//modCompileOnly("dev.emi:emi-fabric:${project.emi_version}") { transitive = false }
 	// JEI
-	modCompileOnly("mezz.jei:jei-${project.minecraft_version}-fabric:${project.jei_version}") { transitive = false }
+	// If dvs1 does have it:
+	//modCompileOnly("mezz.jei:jei-${project.minecraft_version}-fabric:${project.jei_version}") { transitive = false }
+	// If dvs1 does not have it:
+	//modCompileOnly("curse.maven:jei-238222:4597710") { transitive = false }
 	// REI
 	modCompileOnly("me.shedaniel.cloth:basic-math:0.6.0") { transitive = false }
 	modCompileOnly("dev.architectury:architectury-fabric:${project.architectury_version}") { transitive = false }
 	modCompileOnly("me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}") { transitive = false }
 	modCompileOnly("me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}") { transitive = false }
+	modCompileOnly("me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${project.rei_version}") { transitive = false }
 	// Jade: Don't think I need this, since jade draws from the abstract furnace, and so do I.
 	modImplementation("curse.maven:jade-324717:${project.jade_version}")
 
 	String recipeViewer = project.recipe_viewer
 	if (recipeViewer == "emi") {
-		modLocalRuntime("dev.emi:emi:${project.emi_version}") { transitive = false }
+		//modLocalRuntime("dev.emi:emi-fabric:${project.emi_version}") { transitive = false }
 	} else if (recipeViewer == "jei") {
-		modLocalRuntime("mezz.jei:jei-${project.minecraft_version}-fabric:${project.jei_version}") { transitive = false }
+		// If dvs1 does have it:
+		//modLocalRuntime("mezz.jei:jei-${project.minecraft_version}-fabric:${project.jei_version}") { transitive = false }
+		// If dvs1 does not have it:
+		//modLocalRuntime("curse.maven:jei-238222:4597710") { transitive = false }
 	} else if (recipeViewer == "rei") {
 		modLocalRuntime("me.shedaniel.cloth:basic-math:0.6.0") { transitive = false }
 		modLocalRuntime("dev.architectury:architectury-fabric:${project.architectury_version}") { transitive = false }
@@ -78,7 +91,7 @@ processResources {
 	}
 }
 
-def targetJavaVersion = 17
+def targetJavaVersion = 21
 tasks.withType(JavaCompile).configureEach {
 	// ensure that the encoding is set to UTF-8, no matter what the system default is
 	// this fixes some edge cases with special characters not displaying correctly

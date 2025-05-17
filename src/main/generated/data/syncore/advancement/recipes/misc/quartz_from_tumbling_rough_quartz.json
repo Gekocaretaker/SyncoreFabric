@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "syncore:rough_quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:quartz_from_tumbling_rough_quartz"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rough_quartz"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:quartz_from_tumbling_rough_quartz"
+    ]
+  }
+}
