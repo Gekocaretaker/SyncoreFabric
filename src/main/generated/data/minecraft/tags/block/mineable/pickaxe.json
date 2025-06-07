@@ -7,6 +7,13 @@
     "syncore:rough_lapis_lazuli_block",
     "syncore:rough_redstone_block",
     "syncore:rough_quartz_block",
-    "syncore:charcoal_block"
+    "syncore:charcoal_block",
+    "syncore:nether_coal_ore",
+    "syncore:nether_iron_ore",
+    "syncore:nether_copper_ore",
+    "syncore:nether_diamond_ore",
+    "syncore:nether_emerald_ore",
+    "syncore:nether_lapis_lazuli_ore",
+    "syncore:nether_redstone_ore"
   ]
 }

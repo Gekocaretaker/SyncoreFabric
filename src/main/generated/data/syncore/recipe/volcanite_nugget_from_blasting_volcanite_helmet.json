@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "volcanite_nugget",
+  "ingredient": "more-ores:volcanite_helmet",
+  "result": {
+    "id": "syncore:volcanite_nugget"
+  }
+}

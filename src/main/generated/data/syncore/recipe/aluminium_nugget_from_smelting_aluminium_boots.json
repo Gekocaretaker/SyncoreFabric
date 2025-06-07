@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "aluminium_nugget",
+  "ingredient": "more-ores:aluminium_boots",
+  "result": {
+    "id": "syncore:aluminium_nugget"
+  }
+}

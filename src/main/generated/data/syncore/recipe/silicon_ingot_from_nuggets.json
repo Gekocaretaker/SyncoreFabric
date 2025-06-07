@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "silicon_ingot",
+  "key": {
+    "n": "syncore:silicon_nugget"
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-ores:silicon_ingot"
+  }
+}

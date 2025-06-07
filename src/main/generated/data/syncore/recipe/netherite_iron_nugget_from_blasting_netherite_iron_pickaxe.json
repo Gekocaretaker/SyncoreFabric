@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "netherite_iron_nugget",
+  "ingredient": "advancednetherite:netherite_iron_pickaxe",
+  "result": {
+    "id": "syncore:netherite_iron_nugget"
+  }
+}

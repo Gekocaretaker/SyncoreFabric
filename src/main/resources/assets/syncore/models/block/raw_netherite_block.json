@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "syncore:block/raw_netherite_block_top",
-    "side": "syncore:block/raw_netherite_block_side"
-  }
-}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "netherite_iron",
+  "key": {
+    "n": "syncore:netherite_iron_nugget"
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advancednetherite:netherite_iron_ingot"
+  }
+}

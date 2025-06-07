@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soulrite_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-ores:soulrite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:soulrite_nugget_from_smelting_soulrite_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soulrite_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:soulrite_nugget_from_smelting_soulrite_boots"
+    ]
+  }
+}

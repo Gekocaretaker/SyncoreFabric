@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:zinc_nugget_from_blasting_zinc_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zinc_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-ores:zinc_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zinc_shovel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:zinc_nugget_from_blasting_zinc_shovel"
+    ]
+  }
+}

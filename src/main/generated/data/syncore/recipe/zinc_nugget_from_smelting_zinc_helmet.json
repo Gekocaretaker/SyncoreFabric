@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "zinc_nugget",
+  "ingredient": "more-ores:zinc_helmet",
+  "result": {
+    "id": "syncore:zinc_nugget"
+  }
+}

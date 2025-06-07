@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "titanium_nugget",
+  "ingredient": "more-ores:titanium_chestplate",
+  "result": {
+    "id": "syncore:titanium_nugget"
+  }
+}

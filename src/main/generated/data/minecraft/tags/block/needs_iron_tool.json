@@ -2,6 +2,9 @@
   "values": [
     "syncore:rough_diamond_block",
     "syncore:rough_emerald_block",
-    "syncore:rough_redstone_block"
+    "syncore:rough_redstone_block",
+    "syncore:nether_diamond_ore",
+    "syncore:nether_emerald_ore",
+    "syncore:nether_redstone_ore"
   ]
 }

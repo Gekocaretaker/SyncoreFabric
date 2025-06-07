@@ -7,6 +7,7 @@
 bffd5690a2c9f7a58f5a48a3d16cbca0226724f0 data/c/tags/item/nuggets/copper.json
 9b1b6549733d7a29e1c408265f0e9dbb6a5c182e data/c/tags/item/nuggets/netherite.json
 bd7aaa17693b5a58393cd064dc00def24e17341c data/c/tags/item/nuggets/resin.json
+43087b6c4c92a439f57db9bf9127c287b78150c8 data/c/tags/item/ores/quartz.json
 3817c94a8ae7c0c74076277ddb99908f4a09ca86 data/c/tags/item/raw_materials.json
 53cfaea1cfa7172bbf12d94f987e798fc3cd0c00 data/c/tags/item/raw_materials/diamond.json
 e08a304e4c9e3c6c99ca5b32d972841222bf5c17 data/c/tags/item/raw_materials/emerald.json
@@ -21,6 +22,13 @@ ab38fc6f4e5b28cd57f5ddef4b9a001b8441eeff data/c/tags/item/storage_blocks/rough_e
 5777e60ee3ba80a16412f8f92b6a3a40f73ec0d2 data/c/tags/item/storage_blocks/rough_lapis.json
 bfdcca92ff0be5c7d06483d4534648fef26c4827 data/c/tags/item/storage_blocks/rough_quartz.json
 b1bc8c2660b4e21bde4fc36edb85f6b56984bb9f data/c/tags/item/storage_blocks/rough_redstone.json
+9d6975f3cdcaddfab0da36d2627bb7b2d6af2075 data/minecraft/tags/item/coal_ores.json
+39160f48d849fc634742a9dc43e9e87e67165a56 data/minecraft/tags/item/copper_ores.json
+13378c54f64d406d56c60a4dc1656e28bb847316 data/minecraft/tags/item/diamond_ores.json
+f8b7c9a0a26a1d3f952916eb5636185ea8145e02 data/minecraft/tags/item/emerald_ores.json
+b324488fe6746640b1dfc10c954ccbd9bdba039e data/minecraft/tags/item/iron_ores.json
+5f382c9e6351aed4515cbb7b84b260628ed7f9e5 data/minecraft/tags/item/lapis_ores.json
+1412d023f93353ec53427ad5099c5ca2d85f95c7 data/minecraft/tags/item/redstone_ores.json
 5e0801ca92506bab12563d9009fefb1d27e8ae00 data/minecraft/tags/item/trim_materials.json
 2fd4548f4a464bcbd1c82290186edcb43bcdbd36 data/syncore/tags/item/shards.json
 025b6ed61445f946c8ab1aa8fcc8c0cb5258e8ff data/syncore/tags/item/shards/diamond.json

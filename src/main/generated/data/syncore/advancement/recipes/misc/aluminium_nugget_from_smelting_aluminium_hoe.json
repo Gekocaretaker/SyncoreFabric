@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminium_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-ores:aluminium_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminium_nugget_from_smelting_aluminium_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminium_hoe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminium_nugget_from_smelting_aluminium_hoe"
+    ]
+  }
+}

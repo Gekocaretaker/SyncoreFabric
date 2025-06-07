@@ -1,0 +1,11 @@
+{
+  "type": "syncore:tumbling",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "redstone",
+  "ingredient": "syncore:nether_redstone_ore",
+  "result": {
+    "id": "syncore:redstone_gemstone"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:volcanite_nugget_from_smelting_volcanite_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_volcanite_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-ores:volcanite_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_volcanite_shovel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:volcanite_nugget_from_smelting_volcanite_shovel"
+    ]
+  }
+}

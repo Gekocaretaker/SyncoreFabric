@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "racknite",
+  "ingredient": [
+    {
+      "item": "more-ores:racknite_raw"
+    },
+    {
+      "item": "more-ores:racknite_ore"
+    },
+    {
+      "item": "more-ores:deepslate_racknite_ore"
+    }
+  ],
+  "result": {
+    "id": "more-ores:racknite_ingot"
+  }
+}

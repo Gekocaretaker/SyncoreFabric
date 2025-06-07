@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "racknite_nugget",
+  "ingredient": "more-ores:racknite_boots",
+  "result": {
+    "id": "syncore:racknite_nugget"
+  }
+}

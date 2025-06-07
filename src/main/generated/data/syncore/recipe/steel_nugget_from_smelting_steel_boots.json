@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "steel_nugget",
+  "ingredient": "more-ores:steel_boots",
+  "result": {
+    "id": "syncore:steel_nugget"
+  }
+}

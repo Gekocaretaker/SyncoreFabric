@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "netherite_gold",
+  "key": {
+    "n": "syncore:netherite_gold_nugget"
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advancednetherite:netherite_gold_ingot"
+  }
+}

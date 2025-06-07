@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "titanium_ingot",
+  "key": {
+    "n": "syncore:titanium_nugget"
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-ores:titanium_ingot"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "syncore:block/nether_redstone_ore"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "chrome",
+  "ingredient": [
+    {
+      "item": "more-ores:chrome_raw"
+    },
+    {
+      "item": "more-ores:chrome_ore"
+    },
+    {
+      "item": "more-ores:deepslate_chrome_ore"
+    }
+  ],
+  "result": {
+    "id": "more-ores:chrome_ingot"
+  }
+}

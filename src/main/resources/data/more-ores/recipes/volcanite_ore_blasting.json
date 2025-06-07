@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "volcanite",
+  "ingredient": [
+    {
+      "item": "more-ores:volcanite_raw"
+    },
+    {
+      "item": "more-ores:volcanite_ore"
+    },
+    {
+      "item": "more-ores:deepslate_volcanite_ore"
+    }
+  ],
+  "result": {
+    "id": "more-ores:volcanite_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "titanium_nugget",
+  "ingredient": "more-ores:titanium_sword",
+  "result": {
+    "id": "syncore:titanium_nugget"
+  }
+}

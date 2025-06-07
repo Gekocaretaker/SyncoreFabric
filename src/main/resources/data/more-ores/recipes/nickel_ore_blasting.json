@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "nickel",
+  "ingredient": [
+    {
+      "item": "more-ores:nickel_raw"
+    },
+    {
+      "item": "more-ores:nickel_ore"
+    },
+    {
+      "item": "more-ores:deepslate_nickel_ore"
+    }
+  ],
+  "result": {
+    "id": "more-ores:nickel_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "silver",
+  "ingredient": [
+    {
+      "item": "more-ores:silver_raw"
+    },
+    {
+      "item": "more-ores:silver_ore"
+    },
+    {
+      "item": "more-ores:deepslate_silver_ore"
+    }
+  ],
+  "result": {
+    "id": "more-ores:silver_ingot"
+  }
+}

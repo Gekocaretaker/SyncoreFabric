@@ -12,5 +12,8 @@ public class SyncoreDatagen implements DataGeneratorEntrypoint {
         pack.addProvider(SyncoreTagProviders.ItemTagProvider::new);
         pack.addProvider(SyncoreTagProviders.BlockTagProvider::new);
         pack.addProvider(SyncoreRecipeProvider::new);
+        pack.addProvider(SyncoreLanguageProvider::new);
+        pack.addProvider(SyncoreModelProvider::new);
+        pack.addProvider(SyncoreAdvancementProvider::new);
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "nickel_ingot",
+  "key": {
+    "n": "syncore:nickel_nugget"
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-ores:nickel_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "tin_nugget",
+  "ingredient": "more-ores:tin_axe",
+  "result": {
+    "id": "syncore:tin_nugget"
+  }
+}

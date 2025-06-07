@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "advancednetherite:netherite_diamond_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "syncore:netherite_diamond_nugget"
+  }
+}

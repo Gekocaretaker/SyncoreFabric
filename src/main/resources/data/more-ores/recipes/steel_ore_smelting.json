@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "steel",
+  "ingredient": [
+    {
+      "item": "more-ores:steel_raw"
+    },
+    {
+      "item": "more-ores:steel_ore"
+    },
+    {
+      "item": "more-ores:deepslate_steel_ore"
+    }
+  ],
+  "result": {
+    "id": "more-ores:steel_ingot"
+  }
+}

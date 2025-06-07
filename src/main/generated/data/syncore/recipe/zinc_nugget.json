@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "more-ores:zinc_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "syncore:zinc_nugget"
+  }
+}

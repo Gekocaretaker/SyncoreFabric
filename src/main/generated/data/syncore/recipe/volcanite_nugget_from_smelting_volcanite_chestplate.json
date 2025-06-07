@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "volcanite_nugget",
+  "ingredient": "more-ores:volcanite_chestplate",
+  "result": {
+    "id": "syncore:volcanite_nugget"
+  }
+}

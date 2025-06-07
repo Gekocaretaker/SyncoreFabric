@@ -1,0 +1,115 @@
+{
+  "display": {
+    "icon": {
+      "id": "syncore:diamond_shard"
+    },
+    "title": {
+      "translate": "advancements.syncore.adventure.trade_tumble.title"
+    },
+    "description": {
+      "translate": "advancements.syncore.adventure.trade_tumble.description"
+    }
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "buy_diamond_gear": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_axe",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_hoe",
+            "minecraft:diamond_horse_armor",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_sword"
+          ]
+        }
+      }
+    },
+    "tumble_axe": {
+    "trigger": "minecraft:recipe_crafted",
+    "conditions": {
+      "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_axe"
+    }
+  },
+  "tumble_boots": {
+    "trigger": "minecraft:recipe_crafted",
+    "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_boots"
+      }
+    },
+    "tumble_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_chestplate"
+      }
+    },
+    "tumble_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_helmet"
+      }
+    },
+    "tumble_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_hoe"
+      }
+    },
+    "tumble_horse_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_horse_armor"
+      }
+    },
+    "tumble_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_leggings"
+      }
+    },
+    "tumble_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_pickaxe"
+      }
+    },
+    "tumble_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_shovel"
+      }
+    },
+    "tumble_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:diamond_shard_from_tumbling_diamond_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "buy_diamond_gear"
+    ],
+    [
+      "tumble_sword",
+      "tumble_shovel",
+      "tumble_pickaxe",
+      "tumble_leggings",
+      "tumble_horse_armor",
+      "tumble_hoe",
+      "tumble_helmet",
+      "tumble_chestplate",
+      "tumble_boots",
+      "tumble_axe"
+    ]
+  ],
+  "rewards": {
+    "experience": 55
+  }
+}

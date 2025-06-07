@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "enderite_nugget",
+  "ingredient": "more-ores:enderite_axe",
+  "result": {
+    "id": "syncore:enderite_nugget"
+  }
+}

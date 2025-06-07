@@ -1,4 +1,5 @@
 // 1.21.5	-999999999-01-01T00:00:00	Syncore/Tags for minecraft:block
+43087b6c4c92a439f57db9bf9127c287b78150c8 data/c/tags/block/ores/quartz.json
 7de5be808d70e25089960ce9021cfabb5a88c0c1 data/c/tags/block/storage_blocks.json
 058cc76df370a481105de9b4f05b438f36c03f99 data/c/tags/block/storage_blocks/charcoal.json
 326194566397d68118576874e711c3a3d401dda5 data/c/tags/block/storage_blocks/raw_netherite.json
@@ -7,7 +8,14 @@ ab38fc6f4e5b28cd57f5ddef4b9a001b8441eeff data/c/tags/block/storage_blocks/rough_
 5777e60ee3ba80a16412f8f92b6a3a40f73ec0d2 data/c/tags/block/storage_blocks/rough_lapis.json
 bfdcca92ff0be5c7d06483d4534648fef26c4827 data/c/tags/block/storage_blocks/rough_quartz.json
 b1bc8c2660b4e21bde4fc36edb85f6b56984bb9f data/c/tags/block/storage_blocks/rough_redstone.json
-cb47344db8276fa273e2fc9ad0fd46f7efa0a66a data/minecraft/tags/block/mineable/pickaxe.json
+9d6975f3cdcaddfab0da36d2627bb7b2d6af2075 data/minecraft/tags/block/coal_ores.json
+39160f48d849fc634742a9dc43e9e87e67165a56 data/minecraft/tags/block/copper_ores.json
+13378c54f64d406d56c60a4dc1656e28bb847316 data/minecraft/tags/block/diamond_ores.json
+f8b7c9a0a26a1d3f952916eb5636185ea8145e02 data/minecraft/tags/block/emerald_ores.json
+b324488fe6746640b1dfc10c954ccbd9bdba039e data/minecraft/tags/block/iron_ores.json
+5f382c9e6351aed4515cbb7b84b260628ed7f9e5 data/minecraft/tags/block/lapis_ores.json
+c7fc4ddf1c91ccabe6791faf58e52d77169d3d6e data/minecraft/tags/block/mineable/pickaxe.json
 326194566397d68118576874e711c3a3d401dda5 data/minecraft/tags/block/needs_diamond_tool.json
-e52eca381938c5efedf1202954e2e935506469ab data/minecraft/tags/block/needs_iron_tool.json
-92a898ed5642fb81ba0670d4132a08872cb95d7e data/minecraft/tags/block/needs_stone_tool.json
+3a133e5d6dc12bd4f309ff784b73cf2ffb99f1bb data/minecraft/tags/block/needs_iron_tool.json
+c8730b17f765190cfda78ab9f272a99c6b2c6c26 data/minecraft/tags/block/needs_stone_tool.json
+1412d023f93353ec53427ad5099c5ca2d85f95c7 data/minecraft/tags/block/redstone_ores.json

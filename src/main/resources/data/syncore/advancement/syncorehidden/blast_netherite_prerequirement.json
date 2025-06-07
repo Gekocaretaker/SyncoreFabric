@@ -1,0 +1,60 @@
+{
+  "parent": "syncore:syncorehidden/root",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_helmet"
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_chestplate"
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_leggings"
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_boots"
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_axe"
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_hoe"
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_pickaxe"
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_shovel"
+      }
+    },
+    "sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "syncore:netherite_nugget_from_blasting_netherite_sword"
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

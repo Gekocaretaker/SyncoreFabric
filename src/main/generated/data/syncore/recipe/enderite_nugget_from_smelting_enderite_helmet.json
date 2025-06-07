@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "enderite_nugget",
+  "ingredient": "more-ores:enderite_helmet",
+  "result": {
+    "id": "syncore:enderite_nugget"
+  }
+}

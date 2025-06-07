@@ -13,6 +13,7 @@ loom {
 fabricApi {
 	configureDataGeneration() {
 		client = true
+		modId = "syncore"
 	}
 }
 
@@ -35,6 +36,18 @@ repositories {
 		url "https://www.cursemaven.com"
 		content {
 			includeGroup "curse.maven"
+		}
+	}
+
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = "https://api.modrinth.com/maven"
+			}
+		}
+		filter {
+			includeGroup "maven.modrinth"
 		}
 	}
 }
@@ -62,7 +75,7 @@ dependencies {
 	modCompileOnly("me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}") { transitive = false }
 	modCompileOnly("me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${project.rei_version}") { transitive = false }
 	// Jade: Don't think I need this, since jade draws from the abstract furnace, and so do I.
-	modImplementation("curse.maven:jade-324717:${project.jade_version}")
+	//modImplementation("curse.maven:jade-324717:${project.jade_version}")
 
 	String recipeViewer = project.recipe_viewer
 	if (recipeViewer == "emi") {
@@ -80,6 +93,12 @@ dependencies {
 	} else {
 		println("unknown recipe viewer: ${project.recipe_viewer}")
 	}
+
+	// Compatibility
+	// - More Ores
+	modImplementation "maven.modrinth:rayvaxmodmore_ores:${project.more_ores_version}"
+	// - Advanced Netherite
+	modImplementation "maven.modrinth:advanced-netherite:${project.advanced_netherite_version}"
 }
 
 processResources {

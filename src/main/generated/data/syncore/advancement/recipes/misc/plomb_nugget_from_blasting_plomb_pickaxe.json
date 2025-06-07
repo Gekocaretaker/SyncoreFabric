@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_plomb_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-ores:plomb_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:plomb_nugget_from_blasting_plomb_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_plomb_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:plomb_nugget_from_blasting_plomb_pickaxe"
+    ]
+  }
+}

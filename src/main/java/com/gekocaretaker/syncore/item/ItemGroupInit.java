@@ -41,12 +41,14 @@ public class ItemGroupInit {
             // Coal
             c.add(new ItemStack(Items.COAL_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_COAL_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_COAL_ORE));
             c.add(new ItemStack(ItemInit.COAL_NUGGET));
             c.add(new ItemStack(Items.COAL));
             c.add(new ItemStack(Items.COAL_BLOCK));
             // Copper
             c.add(new ItemStack(Items.COPPER_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_COPPER_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_COPPER_ORE));
             c.add(new ItemStack(Items.RAW_COPPER));
             c.add(new ItemStack(Items.RAW_COPPER_BLOCK));
             c.add(new ItemStack(ItemInit.COPPER_NUGGET));
@@ -55,6 +57,7 @@ public class ItemGroupInit {
             // Diamond
             c.add(new ItemStack(Items.DIAMOND_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_DIAMOND_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_DIAMOND_ORE));
             c.add(new ItemStack(ItemInit.ROUGH_DIAMOND));
             c.add(new ItemStack(BlockInit.ROUGH_DIAMOND_BLOCK));
             c.add(new ItemStack(ItemInit.DIAMOND_SHARD));
@@ -63,6 +66,7 @@ public class ItemGroupInit {
             // Emerald
             c.add(new ItemStack(Items.EMERALD_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_EMERALD_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_EMERALD_ORE));
             c.add(new ItemStack(ItemInit.ROUGH_EMERALD));
             c.add(new ItemStack(BlockInit.ROUGH_EMERALD_BLOCK));
             c.add(new ItemStack(ItemInit.EMERALD_SHARD));
@@ -80,6 +84,7 @@ public class ItemGroupInit {
             // Iron
             c.add(new ItemStack(Items.IRON_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_IRON_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_IRON_ORE));
             c.add(new ItemStack(Items.RAW_IRON));
             c.add(new ItemStack(Items.RAW_IRON_BLOCK));
             c.add(new ItemStack(Items.IRON_NUGGET));
@@ -88,6 +93,7 @@ public class ItemGroupInit {
             // Lapis Lazuli
             c.add(new ItemStack(Items.LAPIS_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_LAPIS_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_LAPIS_LAZULI_ORE));
             c.add(new ItemStack(ItemInit.ROUGH_LAPIS_LAZULI));
             c.add(new ItemStack(BlockInit.ROUGH_LAPIS_LAZULI_BLOCK));
             c.add(new ItemStack(ItemInit.LAPIS_LAZULI_SHARD));
@@ -101,6 +107,8 @@ public class ItemGroupInit {
             c.add(new ItemStack(Items.NETHERITE_INGOT));
             c.add(new ItemStack(Items.NETHERITE_BLOCK));
             // Quartz
+            c.add(new ItemStack(BlockInit.QUARTZ_ORE));
+            c.add(new ItemStack(BlockInit.DEEPSLATE_QUARTZ_ORE));
             c.add(new ItemStack(Items.NETHER_QUARTZ_ORE));
             c.add(new ItemStack(ItemInit.ROUGH_QUARTZ));
             c.add(new ItemStack(BlockInit.ROUGH_QUARTZ_BLOCK));
@@ -110,6 +118,7 @@ public class ItemGroupInit {
             // Redstone
             c.add(new ItemStack(Items.REDSTONE_ORE));
             c.add(new ItemStack(Items.DEEPSLATE_REDSTONE_ORE));
+            c.add(new ItemStack(BlockInit.NETHER_REDSTONE_ORE));
             c.add(new ItemStack(ItemInit.ROUGH_REDSTONE));
             c.add(new ItemStack(BlockInit.ROUGH_REDSTONE_BLOCK));
             c.add(new ItemStack(Items.REDSTONE));
@@ -125,7 +134,6 @@ public class ItemGroupInit {
     }
 
     private static void register(RegistryKey<ItemGroup> group, ItemStack icon, Text name) {
-        Syncore.LOGGER.info("Creating item group with id of '" + group.getRegistry() + "'.");
         Registry.register(Registries.ITEM_GROUP, group, FabricItemGroup.builder()
                 .icon(() -> icon)
                 .displayName(name)

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "chrome_nugget",
+  "ingredient": "more-ores:chrome_sword",
+  "result": {
+    "id": "syncore:chrome_nugget"
+  }
+}

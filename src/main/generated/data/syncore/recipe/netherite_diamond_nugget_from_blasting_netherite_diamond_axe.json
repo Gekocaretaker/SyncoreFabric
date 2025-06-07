@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "netherite_diamond_nugget",
+  "ingredient": "advancednetherite:netherite_diamond_axe",
+  "result": {
+    "id": "syncore:netherite_diamond_nugget"
+  }
+}

@@ -2,6 +2,9 @@
   "values": [
     "syncore:rough_lapis_lazuli_block",
     "syncore:charcoal_block",
-    "syncore:rough_quartz_block"
+    "syncore:rough_quartz_block",
+    "syncore:nether_iron_ore",
+    "syncore:nether_copper_ore",
+    "syncore:nether_redstone_ore"
   ]
 }

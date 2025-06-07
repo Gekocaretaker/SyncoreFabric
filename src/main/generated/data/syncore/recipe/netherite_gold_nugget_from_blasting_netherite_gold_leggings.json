@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "netherite_gold_nugget",
+  "ingredient": "advancednetherite:netherite_gold_leggings",
+  "result": {
+    "id": "syncore:netherite_gold_nugget"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_racknite_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more-ores:racknite_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:racknite_nugget_from_blasting_racknite_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_racknite_helmet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:racknite_nugget_from_blasting_racknite_helmet"
+    ]
+  }
+}

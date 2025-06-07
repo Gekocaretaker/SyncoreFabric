@@ -1,9 +1,0 @@
-{
-	"parent": "minecraft:block/orientable_with_bottom",
-	"textures": {
-		"front": "syncore:block/rock_tumbler_front",
-		"side": "syncore:block/rock_tumbler_side",
-		"top": "syncore:block/rock_tumbler_top",
-		"bottom": "syncore:block/rock_tumbler_bottom"
-	}
-}

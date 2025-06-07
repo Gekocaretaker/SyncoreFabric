@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "tin_nugget",
+  "ingredient": "more-ores:tin_leggings",
+  "result": {
+    "id": "syncore:tin_nugget"
+  }
+}

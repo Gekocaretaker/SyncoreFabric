@@ -1,7 +1,10 @@
 package com.gekocaretaker.syncore.client.datagen;
 
+import com.gekocaretaker.syncore.Syncore;
 import com.gekocaretaker.syncore.block.BlockInit;
 import com.gekocaretaker.syncore.client.datagen.recipe.TumblingRecipeJsonBuilder;
+import com.gekocaretaker.syncore.compat.advancednetherite.datagen.ANRecipeProvider;
+import com.gekocaretaker.syncore.compat.moreores.datagen.MORecipeProvider;
 import com.gekocaretaker.syncore.item.ItemInit;
 import com.gekocaretaker.syncore.item.ItemTagInit;
 import com.gekocaretaker.syncore.recipe.RecipeInit;
@@ -296,6 +299,30 @@ public class SyncoreRecipeProvider extends FabricRecipeProvider {
                         .criterion("has_sand", this.conditionsFromItem(Blocks.SAND))
                         .criterion("has_clay", this.conditionsFromItem(Blocks.GRAVEL))
                         .offerTo(exporter);
+
+                offerSmelting(List.of(BlockInit.NETHER_COAL_ORE), RecipeCategory.MISC, Items.COAL, 0.1F, 200, "coal");
+                offerBlasting(List.of(BlockInit.NETHER_COAL_ORE), RecipeCategory.MISC, Items.COAL, 0.1F, 100, "coal");
+                offerSmelting(List.of(BlockInit.NETHER_IRON_ORE), RecipeCategory.MISC, Items.IRON_INGOT, 0.7F, 200, "iron_ingot");
+                offerBlasting(List.of(BlockInit.NETHER_IRON_ORE), RecipeCategory.MISC, Items.IRON_INGOT, 0.7F, 100, "iron_ingot");
+                offerSmelting(List.of(BlockInit.NETHER_COPPER_ORE), RecipeCategory.MISC, Items.COPPER_INGOT, 0.7F, 200, "copper_ingot");
+                offerBlasting(List.of(BlockInit.NETHER_COPPER_ORE), RecipeCategory.MISC, Items.COPPER_INGOT, 0.7F, 100, "copper_ingot");
+                offerSmelting(List.of(BlockInit.NETHER_DIAMOND_ORE), RecipeCategory.MISC, Items.DIAMOND, 1, 200, "diamond");
+                offerTumbling(List.of(BlockInit.NETHER_DIAMOND_ORE), RecipeCategory.MISC, Items.DIAMOND, 1, 100, "diamond");
+                offerSmelting(List.of(BlockInit.NETHER_EMERALD_ORE), RecipeCategory.MISC, Items.EMERALD, 1, 200, "emerald");
+                offerTumbling(List.of(BlockInit.NETHER_EMERALD_ORE), RecipeCategory.MISC, Items.EMERALD, 1, 100, "emerald");
+                offerSmelting(List.of(BlockInit.NETHER_LAPIS_LAZULI_ORE), RecipeCategory.MISC, Items.LAPIS_LAZULI, 0.2F, 200, "lapis_lazuli");
+                offerTumbling(List.of(BlockInit.NETHER_LAPIS_LAZULI_ORE), RecipeCategory.MISC, Items.LAPIS_LAZULI, 1, 100, "lapis_lazuli");
+                offerSmelting(List.of(BlockInit.NETHER_REDSTONE_ORE), RecipeCategory.MISC, ItemInit.REDSTONE_GEMSTONE, 0.7F, 200, "redstone");
+                offerTumbling(List.of(BlockInit.NETHER_REDSTONE_ORE), RecipeCategory.MISC, ItemInit.REDSTONE_GEMSTONE, 1, 100, "redstone");
+                offerSmelting(List.of(BlockInit.QUARTZ_ORE, BlockInit.DEEPSLATE_QUARTZ_ORE), RecipeCategory.MISC, Items.QUARTZ, 0.2F, 200, "quartz");
+                offerTumbling(List.of(BlockInit.QUARTZ_ORE, BlockInit.DEEPSLATE_QUARTZ_ORE), RecipeCategory.MISC, Items.QUARTZ, 1, 100, "quartz");
+
+                if (Syncore.isModPresent("more-ores")) {
+                    MORecipeProvider.INSTANCE.provide(wrapperLookup, exporter);
+                }
+                if (Syncore.isModPresent("advancednetherite")) {
+                    ANRecipeProvider.INSTANCE.provide(wrapperLookup, exporter);
+                }
             }
 
             public void offerTumbling(List<ItemConvertible> inputs, RecipeCategory category, ItemConvertible output, float experience, int cookingTime, String group) {

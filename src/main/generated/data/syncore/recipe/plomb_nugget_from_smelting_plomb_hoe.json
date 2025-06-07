@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "plomb_nugget",
+  "ingredient": "more-ores:plomb_hoe",
+  "result": {
+    "id": "syncore:plomb_nugget"
+  }
+}
